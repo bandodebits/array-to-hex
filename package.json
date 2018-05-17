@@ -1,0 +1,38 @@
+{
+  "name": "array-to-hex",
+  "version": "1.0.0",
+  "description": "Converts an array of Integers into a Hexadecimal string",
+  "main": "index.js",
+  "scripts": {
+    "test": "nyc mocha --reporter spec",
+    "coverage": "nyc report --reporter=text-lcov | coveralls"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chirp/array-to-hex.git"
+  },
+  "keywords": [
+    "array",
+    "to",
+    "hex",
+    "integer",
+    "integer to hex",
+    "array to hex",
+    "chirp payload",
+    "chirp JS",
+    "chirp JS SDK"
+  ],
+  "author": "chirp.io",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/chirp/array-to-hex/issues"
+  },
+  "homepage": "https://github.com/chirp/array-to-hex#readme",
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "coveralls": "^3.0.1",
+    "istanbul": "^0.4.5",
+    "mocha": "^5.1.1",
+    "nyc": "^11.8.0"
+  }
+}
